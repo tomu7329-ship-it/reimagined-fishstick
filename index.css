@@ -1,0 +1,14 @@
+
+header {
+    display: flex;
+    justify-content: flex-end; /* двигает вправо */
+    align-items: center;       /* выравнивает по вертикали */
+    padding-right: 420px;       /* отступ от края */
+}
+
+.title {
+    text-align: right;
+}
+body {
+    overflow: hidden;
+}

@@ -1,0 +1,30 @@
+
+.container {
+    display: flex;           /* ставим элементы в ряд */
+    gap: 200px;               /* расстояние между обложкой и текстом */
+    align-items: center;     /* выравниваем по вертикали */
+}
+
+.cover {
+    width: 1000px;            /* ширина обложки */
+    height: 1300px;
+}
+
+.author-text {
+    width: 600px;            /* ширина текстового блока */
+    text-align: left;        /* или center, если нужно */
+    font-size: 24px;         /* размер текста */
+}
+.author-text h2 {
+    font-size: 104px;
+    margin-bottom: 15px;   /* отступ между заголовком и текстом */
+    text-align: left;    /* можно left если нужно */
+}
+
+.author-text p {
+    font-size: 1900px;
+    line-height: 1.5;
+}
+body {
+    overflow: hidden;
+}
